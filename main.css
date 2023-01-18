@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    font-family: verdana;
+    color: #4CAF50;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 410px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+}
+
+.myButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.myButton:hover {
+    background-color: #3e8e41;
+}
+
+.myButton1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 90px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+th {
+    color: #4CAF50;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+td {
+    color: #4CAF50;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    border: 2px solid #555;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+
+select:focus {
+    border: 2px solid #555;
+}
